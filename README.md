@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Private RAG Lite 🚀</h1>
+  <h1>RAG with Phi-3 🚀</h1>
   <p>A lightweight conversational RAG pipeline for your private documents. 🔒</p>
 
 
