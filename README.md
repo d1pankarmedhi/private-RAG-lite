@@ -60,7 +60,7 @@ Private RAG Lite provides a simple and efficient way to interact with your perso
 
 ## 🔗 Demo
 
-A live demo is available on Hugging Face Spaces: [phi-3-RAG](https://huggingface.co/spaces/dmedhi/phi-3-RAG) using FastAPI.
+A live demo is available on Hugging Face Spaces: [phi-3-RAG](https://huggingface.co/spaces/dmedhi/phi-3-RAG).
 * **Note:** Due to resource limitations on the free Hugging Face Spaces tier, it's recommended to use small PDF documents for optimal performance.
 
 ## 📝 Notes
