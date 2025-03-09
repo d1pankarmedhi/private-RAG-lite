@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server/models:/app/server/models
+    container_name: backend_server
+
+  frontend:
+    build:
+      context: ./ui
+    ports:
+      - "80:80" # Nginx serves on port 80 inside container
+    container_name: frontend_ui
+    depends_on:
+      - backend

@@ -1,0 +1,39 @@
+# Node.js and React UI specific ignores
+node_modules
+build
+dist
+package-lock.json
+.cache
+.vite
+
+# Python backend specific ignores
+__pycache__
+*.pyc
+*.log
+.env
+instance
+
+# General Python ignores
+*.pyc
+*.pyo
+*.egg-info
+__pycache__
+*.log
+*.swp
+*.swo
+
+# Docker related
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.github
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
